@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/android_os"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:text="android os time" />
+
+    <TextView
+        android:id="@+id/android_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:inputType="date" />
+
+
+    <TextView
+        android:id="@+id/nft_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp"
+        android:text="nft time" />
+
+    <TextView
+        android:id="@+id/nft_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:inputType="date" />
+
+
+    <Button
+        android:id="@+id/osButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="80dp"
+        android:text="上海時間" />
+
+
+    <Button
+        android:id="@+id/syncButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="100dp"
+        android:text="NTF同期" />
+
+</LinearLayout>

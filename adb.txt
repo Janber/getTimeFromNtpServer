@@ -1,0 +1,32 @@
+■gradlewでクリア
+gradlew clean
+
+■gradlewでビルド
+gradlew publish
+
+■アプリアンインストール
+adb uninstall jp.co.mbpsoft.gettimefromntpserver
+
+■インストール
+adb install C:\Users\wu_jianbo\Desktop\tool\getTimeFromNtpServer\app\build\outputs\apk\debug\app-debug.apk
+
+
+
+adb install -t C:\Users\wu_jianbo\Desktop\tool\build\new.apk
+
+
+■ログの出力
+adb pull /sdcard/Pictures/Screenshots  C:\Users\wu_jianbo\Desktop\adb\
+
+adb pull /sdcard/Pictures/Screenshots  C:\Users\wu_jianbo\Desktop\416\001
+adb pull /sdcard/Pictures/Screenshots  C:\Users\wu_jianbo\Desktop\416\001
+adb pull /sdcard/Pictures/Screenshots  C:\Users\wu_jianbo\Desktop\1
+
+
+
+
+
+
+コンピューター\P002\内部ストレージ\Pictures\Screenshots
+
+adb pull /mnt/sdcard/2018-02-06Log.txt   C:\Users\wu_jianbo\Desktop\1
